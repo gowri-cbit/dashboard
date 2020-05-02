@@ -9,7 +9,7 @@ export class DashboardService {
   bigChart() {
     return [{
       name: 'Asia',
-      data: [502, 635, 809, 947, 1402, 3634, 5268]
+      data: [402, 635, 809, 947, 1402, 3634, 5268]
   }, {
       name: 'Africa',
       data: [106, 107, 111, 133, 221, 767, 1766]
@@ -26,7 +26,7 @@ export class DashboardService {
   }
 
   cards() {
-    return[100, 200, 300, 400];
+    return [100, 200, 300, 400];
   }
 
   pieCharts() {

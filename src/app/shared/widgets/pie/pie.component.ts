@@ -42,9 +42,7 @@ export class PieComponent implements OnInit {
       },
       exporting: { enabled: true},
       credits: { enabled: false},
-      series: [{
-        data: this.data
-      }]
+      series: this.data
   };
     HC_exporting(Highcharts);
 

@@ -69,6 +69,7 @@ export class CardComponent implements OnInit {
       },
 
       series: [{
+        name: '',
         data: this.data
       }]
   };

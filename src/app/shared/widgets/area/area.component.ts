@@ -36,9 +36,7 @@ export class AreaComponent implements OnInit {
         exporting: {
             enabled: true,
         },
-        series: [{
-            data: this.data
-          }]
+        series: this.data
     };
     HC_exporting(Highcharts);
 
